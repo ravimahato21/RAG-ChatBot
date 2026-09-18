@@ -47,32 +47,28 @@ Python-dotenv
 
 How the System Works
 
-The user uploads a document through the Streamlit application.
-
-The application reads the document and splits the text into smaller chunks.
-
-Each chunk is converted into an embedding and stored in a vector database.
-
-When the user asks a question, the system searches the stored embeddings and finds the most relevant document content.
-
-That content is then sent to the LLM together with the user's question.
-
-The LLM uses the retrieved information to generate a context-aware answer.
+- The user uploads a document through the Streamlit application.
+- The application reads the document and splits the text into smaller chunks.
+- Each chunk is converted into an embedding and stored in a vector database.
+- When the user asks a question, the system finds the most relevant document content.
+- The retrieved content is sent to the LLM together with the user's question.
+- The LLM uses that information to generate a context-aware answer.
 
 Basic Flow
 
 User Question → Vector Search → Relevant Document Content → LLM → Answer
 
+
 Features
 
-document upload through Streamlit
-question answering based on uploaded documents
-document processing and text chunking
-embedding generation
-vector similarity search
-LLM-powered responses
-simple chatbot interface
-secure API key management
+- Document upload through Streamlit
+- Question answering based on uploaded documents
+- Document processing and text chunking
+- Embedding generation
+- Vector similarity search
+- LLM-powered responses
+- Simple chatbot interface
+- Secure API key management
 
 Running the Project
 
@@ -113,25 +109,25 @@ What I Learned
 
 From this project I learned:
 
-how Retrieval-Augmented Generation works
-how embeddings represent document content
-how vector search finds relevant information
-how LLMs can use external context
-how to build an AI application using Streamlit
-how to work with APIs securely
-how different parts of a RAG pipeline work together
+- How Retrieval-Augmented Generation works
+- How embeddings represent document content
+- How vector search finds relevant information
+- How LLMs can use external context
+- How to build an AI application using Streamlit
+- How to work with APIs securely
+- How different parts of a RAG pipeline work together
 
 Future Improvements
 
 I would like to add:
 
-support for multiple documents
-conversation history
-source citations
-support for more file formats
-better document retrieval
-user authentication
-cloud deployment
+- support for multiple documents
+- conversation history
+- source citations
+- support for more file formats
+- better document retrieval
+- user authentication
+- cloud deployment
 
 Why This Project Matters
 
