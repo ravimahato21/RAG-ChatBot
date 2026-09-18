@@ -9,36 +9,30 @@ It allows users to upload documents and ask questions about their content. The c
 I built this project to understand how Retrieval-Augmented Generation, embeddings, vector search, and Large Language Models work together in a real application.
 
 My Role
-
 I built this project myself.
 
 My work included:
-
-building the chatbot interface using Streamlit
-loading and processing uploaded documents
-splitting text into smaller chunks
-creating embeddings from the document content
-storing and searching embeddings
-retrieving relevant information based on user questions
-connecting the retrieved content with an LLM
-managing the API key securely using environment variables
-testing the chatbot with different questions
+-building the chatbot interface using Streamlit
+-loading and processing uploaded documents
+-splitting text into smaller chunks
+-creating embeddings from the document content
+-storing and searching embeddings
+-retrieving relevant information based on user questions
+-connecting the retrieved content with an LLM
+-managing the API key securely using environment variables
+-testing the chatbot with different questions
 
 This project helped me understand how AI applications can use external data to provide more accurate and relevant answers.
 
 Software and Tools
-
 Programming Language
-
 Python
 
 Development Tools
-
 Visual Studio Code
 Streamlit
 
 Libraries and Technologies
-
 LangChain
 LLM API
 FAISS or ChromaDB
@@ -77,32 +71,25 @@ secure API key management
 Running the Project
 
 Clone the repository:
-
 git clone <repository-url>
 cd rag-chatbot
 
 Install the required packages:
-
 pip install -r requirements.txt
 
 Create a .env file in the project folder:
-
 OPENAI_API_KEY=your_api_key_here
 
 Run the application:
-
 streamlit run app.py
 
 The application will usually open at:
-
 http://localhost:8501
 
 API Key Security
-
 The API key is stored in a .env file instead of being written directly in the source code.
 
 Add the following to .gitignore:
-
 .env
 venv/
 __pycache__/
