@@ -15,13 +15,21 @@ I built this project myself.
 My work included:
 
 building the chatbot interface using Streamlit
+
 loading and processing uploaded documents
+
 splitting text into smaller chunks
+
 creating embeddings from the document content
+
 storing and searching embeddings
+
 retrieving relevant information based on user questions
+
 connecting the retrieved content with an LLM
+
 managing the API key securely using environment variables
+
 testing the chatbot with different questions
 
 This project helped me understand how AI applications can use external data to provide more accurate and relevant answers.
